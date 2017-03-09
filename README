@@ -1,2 +1,19 @@
 Wrapper on https://github.com/abadojack/whatlanggo
 Just an experiment.
+
+
+To install, first run:
+
+    go get -u github.com/abadojack/whatlanggo
+
+To run:
+
+    go run main.go "Some sentence here"
+
+To build:
+
+    go build
+
+Now, run:
+
+    ./langdetect "Some sentence here"

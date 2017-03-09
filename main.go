@@ -8,6 +8,7 @@ import (
 
 
 func main() {
+    // Copied from https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
     ISO_639_3_TO_639_1 := make(map[string]string)
     ISO_639_3_TO_639_1["abk"] = "ab"
     ISO_639_3_TO_639_1["aar"] = "aa"
